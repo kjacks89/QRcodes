@@ -17,7 +17,7 @@ codes are positioned at the top left of the page.  These changes are to avoid
 ink and paper waste. 
 
 ### Browser Compatibility
-Compatible with Chrome, Firefox, Internet Explorer, and Microsoft Edge browsers.
+Compatible with Chrome, Firefox, Internet Explorer 9+, and Microsoft Edge browsers.
 
 ### Notes
 * It currently displays 2 QR codes for every text entry per project 
