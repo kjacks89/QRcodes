@@ -7,6 +7,7 @@ to integrate back-end functionality, such as:
 
 User types in text --> queries a database --> data then formatted at the top 
 and bottom of the QR code 
+
 This could save users time and effort as opposed to looking up the info
 themselves.
 
