@@ -16,5 +16,5 @@ ink and paper waste.
 Compatible with Chrome, Firefox, and Microsoft Edge browsers.
 
 ### Notes
-It currently displays 2 QR codes per text entry per project requirements, but
+It currently displays 2 QR codes for every text entry per project requirements, but
 the second can be easily removed.
