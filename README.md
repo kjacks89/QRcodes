@@ -20,7 +20,11 @@ ink and paper waste.
 Compatible with Chrome, Firefox, and Microsoft Edge browsers.
 
 ### Notes
---*It currently displays 2 QR codes for every text entry per project requirements, but
-the second can be easily removed.
+--* It currently displays 2 QR codes for every text entry per project 
+requirements, but the second can be easily removed.
+
+--* To add space between QR codes in the web page, add a span element in 
+qr.html (per instructions in mods.md). This resulted in less efficient
+paper usage when printing so I did not use this.
 
 ![alt text](https://github.com/kjacks89/QRcodes/blob/master/example.png "Chrome example")
