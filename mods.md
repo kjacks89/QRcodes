@@ -1,5 +1,5 @@
 ### Add space between codes
-To add space between codes, add this in the head section:
+To add space between codes, add this in the head section of qr.html:
 
 span {
                 margin: 1.5em;
