@@ -4,6 +4,7 @@ inserts the text at the top and bottom of the code.  It's convenient for those
 needing to print many QR codes in this (or something close) to this format 
 as opposed to some websites that are available.  It can also be easily modified
 to integrate back-end functionality, such as:
+
 User types in text --> queries a database --> data then formatted at the top 
 and bottom of the QR code 
 This could save users time and effort as opposed to looking up the info
