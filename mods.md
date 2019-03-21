@@ -5,6 +5,7 @@ span {
 }
 
 and this at the bottom of addCodes() in the else statement:
+
 var span = document.createElement("span");
 document.getElementById('printDiv').appendChild(span);
 
