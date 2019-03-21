@@ -23,4 +23,4 @@ Compatible with Chrome, Firefox, and Microsoft Edge browsers.
 --*It currently displays 2 QR codes for every text entry per project requirements, but
 the second can be easily removed.
 
-![alt text](https://github.com/kjacks89/QRcodes/example.png "Chrome example")
+![alt text](https://github.com/kjacks89/QRcodes/blob/master/example.png "Chrome example")
