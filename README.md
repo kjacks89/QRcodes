@@ -14,7 +14,7 @@ themselves.
 ### Printing
 When printing, I used CSS to hide everything except for the QR codes.  The QR 
 codes are positioned at the top left of the page.  These changes are to avoid 
-ink and paper waste. 
+wasting ink and paper. 
 
 ### Browser Compatibility
 Compatible with Chrome, Firefox, Internet Explorer 9+, and Microsoft Edge browsers.
