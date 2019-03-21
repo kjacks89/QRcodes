@@ -16,14 +16,12 @@ var app = new function() {
 		var canvas = document.getElementById("qrcode-canvas");
 		var svg = document.getElementById("qrcode-svg");
 		canvas.style.display = "none";
-		svg.style.display = "none";
 		//Second Barcode Below
 		var canvas2 = document.getElementById("qrcode-canvas2");
 		var svg2 = document.getElementById("qrcode-svg2");
 		canvas2.style.display = "none";
-		svg2.style.display = "none";
 		
-		// Get form inputs and compute QR Code
+		// Get text input and compute QR Code
 		var ecl = qrcodegen.QrCode.Ecc.MEDIUM;
 		var text = document.getElementById("text-input").value;
 		var segs = qrcodegen.QrSegment.makeSegments(text);
@@ -32,22 +30,20 @@ var app = new function() {
 		var mask = -1;
 		var boostEcc = true;
 		var qr = qrcodegen.QrCode.encodeSegments(segs, ecl, minVer, maxVer, mask, boostEcc);
-		// Draw image output
+		// Draw QR code
 		var border = 4;
 			var code = qr.toSvgString(border);
 			svg.setAttribute("viewBox", / viewBox="([^"]*)"/.exec(code)[1]);
 			svg.querySelector("path").setAttribute("d", / d="([^"]*)"/.exec(code)[1]);
-			svg.style.removeProperty("display");
 			document.getElementById("qrLabel1").textContent = text;
 			document.getElementById("qrLabel2").textContent = text;
 			//Second Barcode Below
 			svg2.setAttribute("viewBox", / viewBox="([^"]*)"/.exec(code)[1]);
 			svg2.querySelector("path").setAttribute("d", / d="([^"]*)"/.exec(code)[1]);
-			svg2.style.removeProperty("display");
 			document.getElementById("qrLabel3").textContent = text;
 			document.getElementById("qrLabel4").textContent = text;
 			
-			//Fixing text positioning if browser is Chrome or Firefox
+			//Fix text positioning if browser is Chrome or Firefox
 			if((navigator.userAgent.indexOf("Chrome") != -1 || navigator.userAgent.indexOf("Firefox")) != -1 ) 
 			{
 				document.getElementById("qrLabel1").setAttribute("y", "6%");
