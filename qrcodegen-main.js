@@ -51,12 +51,18 @@ var app = new function() {
 			document.getElementById("qrLabel2").setAttribute("y", "29");
 			document.getElementById("qrLabel3").setAttribute("y", "2");
 			document.getElementById("qrLabel4").setAttribute("y", "29");
-		} else if ((sUsrAg.indexOf("Chrome") || sUsrAg.indexOf("Firefox")) > -1) {
+		} else if (sUsrAg.indexOf("Chrome") > -1) {
 			document.getElementById("qrLabel1").setAttribute("y", "6%");
 			document.getElementById("qrLabel2").setAttribute("y", "91%");
 			document.getElementById("qrLabel3").setAttribute("y", "6%");
 			document.getElementById("qrLabel4").setAttribute("y", "91%");
+		} else if (sUsrAg.indexOf("Firefox") > -1) {
+			document.getElementById("qrLabel1").setAttribute("y", "6%");
+			document.getElementById("qrLabel2").setAttribute("y", "96%");
+			document.getElementById("qrLabel3").setAttribute("y", "6%");
+			document.getElementById("qrLabel4").setAttribute("y", "96%");
 		}
+
 	}
 	initialize();
 }
