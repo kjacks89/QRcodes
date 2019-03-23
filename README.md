@@ -13,7 +13,7 @@ themselves.
 
 ### Printing
 When printing, I used CSS to hide everything except for the QR codes.  The QR 
-codes are positioned at the top left of the page.  These changes are to avoid 
+codes are then positioned at the top left of the page.  These changes are to avoid 
 wasting ink and paper. 
 
 ### Browser Compatibility
