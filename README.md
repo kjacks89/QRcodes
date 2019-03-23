@@ -1,7 +1,7 @@
 # QR Code Generator
 This is a web app that generates multiple/unlimited QR codes via text input and
 inserts the text at the top and bottom of the code.  It's convenient for those 
-needing to print many QR codes in this (or something close) to this format 
+needing to print many QR codes in this (or something close to this) format 
 as opposed to some websites that are available.  It can also be easily modified
 to integrate back-end functionality, such as:
 
