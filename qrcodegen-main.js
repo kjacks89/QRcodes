@@ -44,7 +44,7 @@ var app = new function() {
 		document.getElementById("qrLabel3").textContent = text;
 		document.getElementById("qrLabel4").textContent = text;
 		
-		//Fix text positioning if browser is MicrosoftEdge, Chrome, or Firefox (default is Internet Explorer)
+		//Fix text positioning if browser is Microsoft Edge, Chrome, or Firefox (default is Internet Explorer)
 		var sBrowser, sUsrAg = navigator.userAgent;
 		if (sUsrAg.indexOf("Edge") > -1) {
 			document.getElementById("qrLabel1").setAttribute("y", "2");
