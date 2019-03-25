@@ -11,7 +11,7 @@ and bottom of the QR code
 This could save users time and effort as opposed to looking up the info
 themselves.
 ![alt text](https://github.com/kjacks89/QRcodes/blob/master/qrChrome.PNG "Chrome example")
-![alt text](https://github.com/kjacks89/QRcodes/blob/master/qrChromePrint.PNG "Chrome printing example")
+![alt text](https://github.com/kjacks89/QRcodes/blob/master/qrChromePrint.JPG "Chrome printing example")
 
 ### Printing
 When printing, I used CSS to hide everything except for the QR codes.  The QR 
